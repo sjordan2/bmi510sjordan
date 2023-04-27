@@ -1,0 +1,10 @@
+Package: bmi510sjordan
+Title: Sean Jordan's Final Project Submission for BMI 510
+Version: 1.0
+Authors@R: 
+    person("Sean", "Jordan", , "Sean.Jordan@emory.edu", role = c("aut", "cre"))
+Description: Miscellaneous functions used throughout the BMI 510 course at Emory University
+License: use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
