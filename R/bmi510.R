@@ -107,11 +107,8 @@ rep_mat = function(x, M = 1, N = 1) {
 #' classes(test_tibble)
 classes = function(x) {
   base_vector = lapply(x, class)
-  class_df = data.frame(matrix(ncol = 2, nrow = length(base_vector)))
-  colnames(class_df) = c("orig_name", "class")
-  class_df$orig_name = colnames(x)
-  class_df$class = unname(unlist(base_vector))
-  return(class_df)
+  fixed_vector = unname(unlist(base_vector))
+  return(fixed_vector)
 }
 
 #' Numeric Column Scaler
